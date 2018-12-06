@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@drawable/shape_border_top"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/returnactivity"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+    <!--我的座驾-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--座驾1-->
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/car"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
+            <ImageView
+                android:id="@+id/mycar_carspead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#000000"
+                android:textSize="22dp"
+                android:text="车速：60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:padding="5dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/selector_mycar_btu"
+                android:text="停止"
+                android:textSize="32dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!--座驾2-->
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/car"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
+            <ImageView
+                android:id="@+id/mycar_carspead2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#000000"
+                android:textSize="22dp"
+                android:text="车速：60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:padding="5dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/selector_mycar_btu"
+                android:text="停止"
+                android:textSize="32dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!--座驾3-->
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/car"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
+            <ImageView
+                android:id="@+id/mycar_carspead3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textColor="#000000"
+                android:textSize="22dp"
+                android:text="车速：60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:padding="5dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/selector_mycar_btu"
+                android:text="停止"
+                android:textSize="32dp"
+                android:textColor="#000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
